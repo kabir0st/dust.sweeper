@@ -1,27 +1,27 @@
-@tailwind base;
+/* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.connect-button {
+    background-color: #fca311;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
   }
+
+  
+.highlighted {
+  background-color:  #A9A9A9 !important; /* Change the color to your preference */
+  cursor: pointer; /* Change the cursor to indicate interactivity */
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.highlighted:hover {
+  background-color:  #A9A9A9 !important; /* Change the hover color if needed */
+}
+
+.hasValue {
+  background-color: gold;
 }
