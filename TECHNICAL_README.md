@@ -296,16 +296,3 @@ When contributing to this project:
 4. Test across all supported networks
 5. Consider performance implications of new features
 
-## License
-
-[Specify license here]
-
-## Contact & Support
-
-[Add contact information or support channels]
-
----
-
-**Last Updated**: [Current Date]
-**Version**: 0.1.0
-
